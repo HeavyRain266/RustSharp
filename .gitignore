@@ -1,0 +1,8 @@
+# Rust
+/target
+/Cargo.lock
+
+# C#
+/RustCsharp/bin
+/RustCsharp/obj
+/RustCsharp/rust_sharp.dll
