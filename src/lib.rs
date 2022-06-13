@@ -4,8 +4,8 @@ pub fn add(left: usize, right: usize) -> usize {
 }
 
 #[no_mangle]
-pub fn hello(name: &str) {
-    println!("Hello, {name}");
+pub fn hello(text: &str) {
+    println!("Hello, {text}");
 }
 
 #[no_mangle]
