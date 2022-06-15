@@ -8,8 +8,8 @@ namespace RustSharp {
             Func.hello("C#");
             Func.hello("World");
 
-            Console.WriteLine(Func.is_bool(99));
-            Console.WriteLine(Func.is_bool(101));
+            Console.WriteLine(Func.is_even(99));
+            Console.WriteLine(Func.is_even(100));
         }
     }
 }

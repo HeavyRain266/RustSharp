@@ -9,6 +9,6 @@ namespace RustSharp.Load {
         public static extern void hello(string name);
 
         [DllImport("rust_sharp")]
-        public static extern bool is_bool(Int32 i);
+        public static extern bool is_even(Int32 i);
     }
 }

@@ -9,6 +9,6 @@ pub fn hello(text: &str) {
 }
 
 #[no_mangle]
-pub fn is_bool(i: i32) -> bool {
-    i < 100
+pub fn is_even(i: i32) -> bool {
+    i >= 100
 }
